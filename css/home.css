@@ -1,0 +1,21 @@
+div.wrapper {
+  /* display: flex; */
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.dashboard-items {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.dashboard_item {
+  position: relative;
+  padding: 20px 40px;
+  margin: 20px 10px;
+  width: 300px;
+  background-color: white;
+  background-image: radial-gradient(#d711ffd8, #c909f0d8);
+  border-radius: 5px;
+}
