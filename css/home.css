@@ -9,7 +9,12 @@ div.dashboard-items {
   display: flex;
   flex-flow: row wrap;
 }
-
+#logoutbtn {
+  color: #1183ff;
+}
+#logoutbtn:hover {
+  text-decoration: underline;
+}
 div.dashboard_item {
   position: relative;
   padding: 20px 40px;

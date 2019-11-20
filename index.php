@@ -1,3 +1,9 @@
+<?php
+include 'control.php'; // Includes Login Script
+if (isset($_SESSION['admin'])) {
+    header("location: home.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
